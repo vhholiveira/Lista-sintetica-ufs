@@ -482,6 +482,17 @@
                 echo "<tr><td>{$UFS[$chaves]['bandeira']}</td>";
                 echo "<td>{$UFS[$chaves]['unidadefederativa']}</td>";
                 echo "<td>{$UFS[$chaves]['abreviacao']}</td>";
+                echo "<td>{$UFS[$chaves]['sededogoverno']}</td>";
+                echo "<td>{$UFS[$chaves]['area']}</td>";
+                echo "<td>{$UFS[$chaves]['populacao']}</td>";
+                echo "<td>{$UFS[$chaves]['densidade']}</td>";
+                echo "<td>{$UFS[$chaves]['pib']}</td>";
+                echo "<td>{$UFS[$chaves]['total']}</td>";
+                echo "<td>{$UFS[$chaves]['pibpercapita']}</td>";
+                echo "<td>{$UFS[$chaves]['idh']}</td>";
+                echo "<td>{$UFS[$chaves]['alfabetizacao']}</td>";
+                echo "<td>{$UFS[$chaves]['mortalidadeinfantil']}</td>";
+                echo "<td>{$UFS[$chaves]['expectativadvida']}</td></tr>";
             }
             ?>
         </tbody>
