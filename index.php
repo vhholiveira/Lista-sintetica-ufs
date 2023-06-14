@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -39,7 +39,7 @@
                     'abreviacao' => 'AC',
                     'sededogoverno' => 'Rio Branco',
                     'area' => number_format(164122.2, 2, ',', ' '),
-                    'populacao' => number_format(795145, 0, '', '. '),
+                    'populacao' => number_format(795145, 0, '', ' '),
                     'densidade' => number_format(4.30, 2, ','),
                     'pib' => number_format(13622000, 0, ' ', ' '),
                     'total' => number_format(0.2, 1, ','),
@@ -58,7 +58,7 @@
                     'abreviacao' => 'AL',
                     'sededogoverno' => 'Maceió',
                     'area' => number_format(27767.7, 1, ',', ' '),
-                    'populacao' => number_format(3327551, 0, ' ', '. '),
+                    'populacao' => number_format(3327551, 0, ' ', ' '),
                     'densidade' => number_format(108.61, 2, ','),
                     'pib' => number_format(46364000, 0, ' ', ' '),
                     'total' => number_format(0.8, 1, ','),
@@ -77,7 +77,7 @@
                     'abreviacao' => 'AP',
                     'sededogoverno' => 'Macapá',
                     'area' => number_format(142814.6, 1, ',', ' '),
-                    'populacao' => number_format(756500, 0, ' ', '. '),
+                    'populacao' => number_format(756500, 0, ' ', ' '),
                     'densidade' => number_format(4.16, 2, ','),
                     'pib' => number_format(13861000, 0, ' ', ' '),
                     'total' => number_format(0.2, 1, ','),
@@ -96,7 +96,7 @@
                     'abreviacao' => 'AM',
                     'sededogoverno' => 'Manaus',
                     'area' => number_format(1570745.7, 1, ',', ' '),
-                    'populacao' => number_format(3893763, 0, ' ', '. '),
+                    'populacao' => number_format(3893763, 0, ' ', ' '),
                     'densidade' => number_format(2.05, 2, ','),
                     'pib' => number_format(86560000, 0, ' ', ' '),
                     'total' => number_format(1.4, 1, ','),
@@ -114,7 +114,7 @@
                     'abreviacao' => 'BA',
                     'sededogoverno' => 'Salvador',
                     'area' => number_format(564692.7, 1, ',', ' '),
-                    'populacao' => number_format(15150143, 0, ' ', '. '),
+                    'populacao' => number_format(15150143, 0, ' ', ' '),
                     'densidade' => number_format(24.46, 2, ','),
                     'pib' => number_format(245025000, 0, ' ', ' '),
                     'total' => number_format(4.1, 1, ','),
@@ -468,8 +468,8 @@
                     'unidadefederativa' => 'Tocantins',
                     'abreviacao' => 'TO',
                     'sededogoverno' => 'Palmas',
-                    'area' => number_format(277620.9, 1, ',', '.'),
-                    'populacao' => number_format(1502759, 0, ' ','.'),
+                    'area' => number_format(277620.9, 1, ',', ' '),
+                    'populacao' => number_format(1502759, 0, ' ',' '),
                     'densidade' => number_format(4.70, 2, ','),
                     'pib' => number_format(28930000, 0, ' ', '.'),
                     'total' => number_format(0.5, 1, ','),
