@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -50,6 +50,8 @@
                     'expectativadvida' => number_format(73.9, 1, ',') . 'anos'
 
                 ),
+
+
                 'AL' => array(
                     'bandeira' => '<img width="50" src="https://upload.wikimedia.org/wikipedia/commons/8/88/Bandeira_de_Alagoas.svg" alt="Bandeira do Alagoas">',
                     'unidadefederativa' => 'Alagoas',
@@ -478,7 +480,9 @@
                     'expectativadvida' => number_format(73.4 , 1, ','). 'anos' 
                 )
 
-                );
+
+            );
+
             foreach ($UFS as $chaves => $valor) {
                 echo "<tr><td>{$UFS[$chaves]['bandeira']}</td>";
                 echo "<td>{$UFS[$chaves]['unidadefederativa']}</td>";
