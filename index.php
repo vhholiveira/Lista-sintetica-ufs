@@ -30,6 +30,27 @@
             </tr>
         </thead>
         <tbody>
+            <?php
+            $UFS = array(
+                'AC' => array(
+                    'bandeira' => '<img width="50" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Bandeira_do_Acre.svg" alt="Bandeira do Acre">',
+                    'unidadefederativa' => 'Acre',
+                    'abreviacao' => 'AC',
+                    'sededogoverno' => 'Rio Branco',
+                    'area' => number_format(164122.2, 2, ',', ' '),
+                    'populacao' => number_format(795145, 0, '', '. '),
+                    'densidade' => number_format(4.30, 2, ','),
+                    'pib' => number_format(13622000, 0, ' ', ' '),
+                    'total' => number_format(0.2, 1, ','),
+                    'pibpercapita' => number_format(16953.46, 2, ',', ' '),
+                    'idh' => number_format(0.663, 3, ','),
+                    'alfabetizacao' => number_format(86.9, 1, ',') . '%',
+                    'mortalidadeinfantil' => number_format(17.0, 1, ',') . '&#8240;',
+                    'expectativadvida' => number_format(73.9, 1, ',') . 'anos'
+
+                )
+            )
+            ?>
         </tbody>
 
     </table>
