@@ -49,7 +49,12 @@
                     'expectativadvida' => number_format(73.9, 1, ',') . 'anos'
 
                 )
-            )
+                );
+            foreach ($UFS as $chaves => $valor) {
+                echo "<tr><td>{$UFS[$chaves]['bandeira']}</td>";
+                echo "<td>{$UFS[$chaves]['unidadefederativa']}</td>";
+                echo "<td>{$UFS[$chaves]['abreviacao']}</td>";
+            }
             ?>
         </tbody>
 
